@@ -51,3 +51,13 @@ Sun Mar 13 20:03:30 UTC 2022:
  tests:  2|5
 total_score: 20/70
 6a6067f
+Sun Mar 13 20:06:42 UTC 2022: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:68:8: error: invalid type argument of ‘->’ (have ‘Persona {aka struct <anonymous>}’)
+   datos->edad = edad;
+        ^~
+Compilation failed
+30c9aa1
