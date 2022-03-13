@@ -91,3 +91,8 @@ exercises.c:66:10: error: ‘datos’ is used uninitialized in this function [-W
 cc1: all warnings being treated as errors
 Compilation failed
 7bc95bf
+Sun Mar 13 20:09:42 UTC 2022: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  0|0
+31fee2e
