@@ -28,3 +28,20 @@ Sun Mar 13 19:57:40 UTC 2022:
  tests:  2|5
 total_score: 20/70
 4feea18
+Sun Mar 13 20:02:42 UTC 2022: 
+ exercises.c | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:70:17: error: invalid initializer
+   Persona ptr = &datos;
+                 ^
+exercises.c:71:11: error: incompatible types when returning type ‘Persona {aka struct <anonymous>}’ but ‘Persona * {aka struct <anonymous> *}’ was expected
+    return ptr
+           ^~~
+exercises.c:73:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+574959c
