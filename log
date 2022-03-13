@@ -2,3 +2,17 @@ Sun Mar 13 19:43:28 UTC 2022:
  tests:  0|7
 total_score: 0/70
 5528e2f
+Sun Mar 13 19:49:36 UTC 2022: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:47:10: error: ‘return’ with a value, in function returning void [-Werror]
+   return total;
+          ^~~~~
+exercises.c:39:6: note: declared here
+ void sumaNultimos(int a[], int n, int m, int * suma) {
+      ^~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+3620af4
