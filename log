@@ -61,3 +61,22 @@ exercises.c:68:8: error: invalid type argument of ‘->’ (have ‘Persona {aka
         ^~
 Compilation failed
 30c9aa1
+Sun Mar 13 20:07:30 UTC 2022: 
+ exercises.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:66:15: error: ‘datos’ is a pointer; did you mean to use ‘->’?
+   strcpy(datos.nombre, nombre);
+               ^
+               ->
+exercises.c:67:15: error: ‘datos’ is a pointer; did you mean to use ‘->’?
+   strcpy(datos.rut, rut);
+               ^
+               ->
+exercises.c:68:8: error: ‘datos’ is a pointer; did you mean to use ‘->’?
+   datos.edad = edad;
+        ^
+        ->
+Compilation failed
+e378ee3
