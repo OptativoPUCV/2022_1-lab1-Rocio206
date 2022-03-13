@@ -96,3 +96,9 @@ Sun Mar 13 20:09:42 UTC 2022:
  1 file changed, 3 insertions(+), 1 deletion(-)
  tests:  0|0
 31fee2e
+Sun Mar 13 20:12:02 UTC 2022: 
+ exercises.c | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+ tests:  2|5
+total_score: 20/70
+09256d7
