@@ -146,3 +146,13 @@ exercises.c:106:7: error: invalid type argument of ‘->’ (have ‘Vector {aka
        ^~
 Compilation failed
 5a61212
+Mon Mar 14 01:02:15 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:106:3: error: invalid type argument of unary ‘*’ (have ‘int’)
+   *v->datos[i] = valor ;
+   ^~~~~~~~~~~~
+Compilation failed
+f071fea
